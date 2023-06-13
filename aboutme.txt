@@ -2,7 +2,7 @@
 
 Name: Arjun S
 From: India, Chennai
-[+] An Cyber Security Researcher 
+[+] A Cyber Security Researcher 
 [+]  Founder of an infosec blogging community <a href="https://hacklido.com">Hacklido</a>.
 ||==> <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
 [+] Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
