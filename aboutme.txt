@@ -3,33 +3,34 @@
 Name: Arjun S
 From: India, Chennai
 [+] An Cyber Security Researcher 
-[+] Founder of an infosec blogging community <a href="https://hacklido.com">Hacklido</a>.
-[+] Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>.
+[+]  Founder of an infosec blogging community <a href="https://hacklido.com">Hacklido</a>.
+|_ <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
+[+] Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
+|_ <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
 
-<strong>./Technical Skills:</strong>
-  [+] Web Application Penetration Testing
-  [+] Networking
-  [+] Azure Cloud & Security
-  [+] MERN & Django Web Development
-  [+] Graphic Designing
-  [+] Digital Content Creation
-  [+] Server Administration
+<strong>🧑‍💻 ./Technical Skills:</strong>
+  [+]🌐 Web Application Penetration Testing
+  [+]👾 Networking
+  [+]☁️ Azure/AWS/Google Cloud & Security
+  [+]🧑‍💻 MERN & Django Web Development
+  [+]✨ Graphic Designing (Canva x Midjourney)
+  [+]💻 Digital Content Creation (LinkedIn, Intagram,)
+  [+]🖥️ Server Administration
 
-<strong>./My area of interest and expertise involves:</strong>
+<strong>🧠 ./My area of interest and expertise involves:</strong>
   [+] Web Application Penetration Testing,
   [+] Cloud Penetration Testing,
   [+] Network Penetration Testing,
   [+] Python & Bash Scripting for automating boring stuff.
 
-<strong>./Licenses & certifications:</strong>
+<strong>🎓 ./Licenses & certifications:</strong>
   [+] SC-900: Security, Compliance, and Identity Fundamentals
   [+] AZ-900: Azure Fundamentals
   [+] NPTEL Certification from IITB - Demystifying Networking
   [+] (ISC)² Certified in Cybersecurity℠ - CC
   [+] Juniper Networks Certified Associate, (JNCIA-Junos)
+  [+] AWS Cloud Practitioner
 
-
-If you are looking to hire me. Here is my <a href="https://www.canva.com/design/DAFOVPglpVw/-xb_WmkUhfaeoAL_oroOjw/view?utm_content=DAFOVPglpVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Resume.</a></p>
 
 <span id="a">root@arjun</span>:<span id="b">~</span><span id="c">$</span> cat contact.me
 
