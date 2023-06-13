@@ -4,40 +4,39 @@ Name: Arjun S
 From: India, Chennai
 [+] An Cyber Security Researcher 
 [+]  Founder of an infosec blogging community <a href="https://hacklido.com">Hacklido</a>.
-|_ <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
+||==> <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
 [+] Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
-|_ <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
+||==> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
 
-<h4>🧑‍💻 ./Technical Skills:</h4>
-  [+] Web Application Penetration Testing
-  [+] Networking
-  [+] Azure/AWS/Google Cloud & Security
-  [+] MERN & Django Web Development
-  [+] Graphic Designing (Canva x Midjourney)
-  [+] Digital Content Creation (LinkedIn, Intagram,)
-  [+] Server Administration
+<strong>🧑‍💻 ./Technical Skills:</strong>
+  <strong>[+]</strong> Web Application Penetration Testing
+  <strong>[+]</strong> Networking
+  <strong>[+]</strong> Azure/AWS/Google Cloud & Security
+  <strong>[+]</strong> MERN & Django Web Development
+  <strong>[+]</strong> Graphic Designing (Canva x Midjourney)
+  <strong>[+]</strong> Digital Content Creation (LinkedIn, Intagram & Twitter)
+  <strong>[+]</strong> Server Administration (Linux with Apache & NGINX)
 
-<h4>🧠 ./My area of interest and expertise involves:</h4>
-  [+] Web Application Penetration Testing,
-  [+] Cloud Penetration Testing,
-  [+] Network Penetration Testing,
-  [+] Python & Bash Scripting for automating boring stuff.
+<strong>🧠 ./My area of interest and expertise involves:</strong>
+  <strong>[+]</strong> Web Application Penetration Testing,
+  <strong>[+]</strong> Cloud Penetration Testing,
+  <strong>[+]</strong> Network Penetration Testing,
+  <strong>[+]</strong> Python & Bash Scripting for automating boring stuff.
 
-<h4>🎓 ./Licenses & certifications:</h4>
-  [+] SC-900: Security, Compliance, and Identity Fundamentals
-  [+] AZ-900: Azure Fundamentals
-  [+] NPTEL Certification from IITB - Demystifying Networking
-  [+] (ISC)² Certified in Cybersecurity℠ - CC
-  [+] Juniper Networks Certified Associate, (JNCIA-Junos)
-  [+] AWS Cloud Practitioner
-
+<strong>🎓 ./Licenses & certifications:</strong>
+  <strong>[+]</strong> SC-900: Security, Compliance, and Identity Fundamentals (Sep' 2022)
+  <strong>[+]</strong> AZ-900: Azure Fundamentals (Sep' 2022)
+  <strong>[+]</strong> NPTEL Certification from IITB - Demystifying Networking (Oct' 2022)
+  <strong>[+]</strong> (ISC)² Certified in Cybersecurity℠ - CC (Oct' 2022)
+  <strong>[+]</strong> Juniper Networks Certified Associate, (JNCIA-Junos) (Jan' 2023)
+  <strong>[+]</strong> AWS Cloud Practitioner (Jun' 2023)
 
 <span id="a">root@arjun</span>:<span id="b">~</span><span id="c">$</span> cat contact.me
 
 You can reach me at <a href="mailto: 0xarjun@gmail.com">0xarjun@gmail.com</a>
 You can visit my other profiles, here: 
-  [+] <a href="https://www.linkedin.com/in/admiralarjun/">LinkedIn</a> 
-  [+] <a href="https://instagram.com/admiralarjun/">InstaGram</a> 
-  [+] <a href="https://twitter.com/admiralarjun">Twitter</a>
+  <strong>[+]</strong> <a href="https://www.linkedin.com/in/admiralarjun/">LinkedIn</a> 
+  <strong>[+]</strong> <a href="https://instagram.com/admiralarjun/">InstaGram</a> 
+  <strong>[+]</strong> <a href="https://twitter.com/admiralarjun">Twitter</a>
 
 <span id="a">root@arjun</span>:<span id="b">~</span><span id="c">$</span> arjun.guru
