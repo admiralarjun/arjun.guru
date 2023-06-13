@@ -5,9 +5,11 @@ Name: Arjun S
 From: India, Chennai
 [+] A Cyber Security Researcher 
 [+]  Founder of an infosec blogging community <a href="https://hacklido.com">Hacklido</a>.
-||==> <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
+|
+└─> <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
 [+] Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
-||==> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
+|
+└─> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
 
 ┌──(arjun㉿predator)-[~]
 └─$ <strong>🧑‍💻 ./Technical Skills:</strong>
