@@ -8,22 +8,22 @@ From: India, Chennai
 [+] Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
 |_ <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
 
-<strong>🧑‍💻 ./Technical Skills:</strong>
-  [+]🌐 Web Application Penetration Testing
-  [+]👾 Networking
-  [+]☁️ Azure/AWS/Google Cloud & Security
-  [+]🧑‍💻 MERN & Django Web Development
-  [+]✨ Graphic Designing (Canva x Midjourney)
-  [+]💻 Digital Content Creation (LinkedIn, Intagram,)
-  [+]🖥️ Server Administration
+<h4>🧑‍💻 ./Technical Skills:</h4>
+  [+] Web Application Penetration Testing
+  [+] Networking
+  [+] Azure/AWS/Google Cloud & Security
+  [+] MERN & Django Web Development
+  [+] Graphic Designing (Canva x Midjourney)
+  [+] Digital Content Creation (LinkedIn, Intagram,)
+  [+] Server Administration
 
-<strong>🧠 ./My area of interest and expertise involves:</strong>
+<h4>🧠 ./My area of interest and expertise involves:</h4>
   [+] Web Application Penetration Testing,
   [+] Cloud Penetration Testing,
   [+] Network Penetration Testing,
   [+] Python & Bash Scripting for automating boring stuff.
 
-<strong>🎓 ./Licenses & certifications:</strong>
+<h4>🎓 ./Licenses & certifications:</h4>
   [+] SC-900: Security, Compliance, and Identity Fundamentals
   [+] AZ-900: Azure Fundamentals
   [+] NPTEL Certification from IITB - Demystifying Networking
