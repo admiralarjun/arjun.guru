@@ -1,4 +1,5 @@
-<span id="a">root@arjun</span>:<span id="b">~</span><span id="c">$</span> cat about.me
+┌──(arjun㉿predator)-[~]
+└─$ <span id="a">root@arjun</span>:<span id="b">~</span><span id="c">$</span> cat about.me
 
 Name: Arjun S
 From: India, Chennai
@@ -8,7 +9,8 @@ From: India, Chennai
 [+] Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
 ||==> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
 
-<strong>🧑‍💻 ./Technical Skills:</strong>
+┌──(arjun㉿predator)-[~]
+└─$ <strong>🧑‍💻 ./Technical Skills:</strong>
   <strong>[+]</strong> Web Application Penetration Testing
   <strong>[+]</strong> Networking
   <strong>[+]</strong> Azure/AWS/Google Cloud & Security
@@ -17,13 +19,15 @@ From: India, Chennai
   <strong>[+]</strong> Digital Content Creation (LinkedIn, Intagram & Twitter)
   <strong>[+]</strong> Server Administration (Linux with Apache & NGINX)
 
-<strong>🧠 ./My area of interest and expertise involves:</strong>
+┌──(arjun㉿predator)-[~]
+└─$ <strong>🧠 ./My area of interest and expertise involves:</strong>
   <strong>[+]</strong> Web Application Penetration Testing,
   <strong>[+]</strong> Cloud Penetration Testing,
   <strong>[+]</strong> Network Penetration Testing,
   <strong>[+]</strong> Python & Bash Scripting for automating boring stuff.
 
-<strong>🎓 ./Licenses & certifications:</strong>
+┌──(arjun㉿predator)-[~]
+└─$ <strong>🎓 ./Licenses & certifications:</strong>
   <strong>[+]</strong> SC-900: Security, Compliance, and Identity Fundamentals (Sep' 2022)
   <strong>[+]</strong> AZ-900: Azure Fundamentals (Sep' 2022)
   <strong>[+]</strong> NPTEL Certification from IITB - Demystifying Networking (Oct' 2022)
