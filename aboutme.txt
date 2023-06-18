@@ -1,3 +1,10 @@
+ █████╗ ██████╗      ██╗██╗   ██╗███╗   ██╗
+██╔══██╗██╔══██╗     ██║██║   ██║████╗  ██║
+███████║██████╔╝     ██║██║   ██║██╔██╗ ██║
+██╔══██║██╔══██╗██   ██║██║   ██║██║╚██╗██║
+██║  ██║██║  ██║╚█████╔╝╚██████╔╝██║ ╚████║
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝  ╚═════╝ ╚═╝  ╚═══╝
+                                        
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[😎]
 └─$ cat about.me</strong>
 
@@ -28,12 +35,12 @@ From: India, Chennai
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🎓]
 └─$ ./Licenses & certifications:</strong>
-  <strong id="b">[+]</strong> SC-900: Security, Compliance, and Identity Fundamentals (Sep' 2022)
-  <strong id="b">[+]</strong> AZ-900: Azure Fundamentals (Sep' 2022)
-  <strong id="b">[+]</strong> NPTEL Certification from IITB - Demystifying Networking (Oct' 2022)
-  <strong id="b">[+]</strong> (ISC)² Certified in Cybersecurity℠ - CC (Oct' 2022)
-  <strong id="b">[+]</strong> Juniper Networks Certified Associate, (JNCIA-Junos) (Jan' 2023)
   <strong id="b">[+]</strong> AWS Cloud Practitioner (Jun' 2023)
+  <strong id="b">[+]</strong> Juniper Networks Certified Associate, (JNCIA-Junos) (Jan' 2023)
+  <strong id="b">[+]</strong> (ISC)² Certified in Cybersecurity℠ - CC (Oct' 2022)
+  <strong id="b">[+]</strong> NPTEL Certification from IITB - Demystifying Networking (Oct' 2022)
+  <strong id="b">[+]</strong> AZ-900: Azure Fundamentals (Sep' 2022)
+  <strong id="b">[+]</strong> SC-900: Security, Compliance, and Identity Fundamentals (Sep' 2022)
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[✉️]
 └─$ cat contact.me</strong>
