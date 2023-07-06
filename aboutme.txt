@@ -10,7 +10,7 @@ From: India, Chennai
   └─> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🧑‍💻]
-└─$ ./Technical Skills:</strong>
+└─$ ./Technical_Skills</strong>
 
   <strong id="b">[+]</strong> Web Application Penetration Testing
   <strong id="b">[+]</strong> Networking
@@ -21,7 +21,7 @@ From: India, Chennai
   <strong id="b">[+]</strong> Server Administration (Linux with Apache & NGINX)
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🧠]
-└─$ ./My area of interest and expertise involves:</strong>
+└─$ ./Area_Of_Interest_Expertise</strong>
 
   <strong id="b">[+]</strong> Web Application Penetration Testing,
   <strong id="b">[+]</strong> Cloud Penetration Testing,
@@ -29,9 +29,9 @@ From: India, Chennai
   <strong id="b">[+]</strong> Python & Bash Scripting for automating boring stuff.
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🎓]
-└─$ ./Licenses & certifications:</strong>
+└─$ ./Licenses_Certifications</strong>
 
-  <strong id="b">[+]</strong> C|EH v12 - Certified Ethical Hacker (July' 2023)
+  <strong id="b">[+]</strong> ★ C|EH v12 - Certified Ethical Hacker (July' 2023)
   <strong id="b">[+]</strong> AWS Cloud Practitioner (Jun' 2023)
   <strong id="b">[+]</strong> Juniper Networks Certified Associate, (JNCIA-Junos) (Jan' 2023)
   <strong id="b">[+]</strong> (ISC)² Certified in Cybersecurity℠ - CC (Oct' 2022)
