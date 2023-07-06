@@ -28,6 +28,7 @@ From: India, Chennai
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🎓]
 └─$ ./Licenses & certifications:</strong>
+  <strong id="b">[+]</strong> C|EH v12 - Certified Ethical Hacker (July' 2023)
   <strong id="b">[+]</strong> AWS Cloud Practitioner (Jun' 2023)
   <strong id="b">[+]</strong> Juniper Networks Certified Associate, (JNCIA-Junos) (Jan' 2023)
   <strong id="b">[+]</strong> (ISC)² Certified in Cybersecurity℠ - CC (Oct' 2022)
