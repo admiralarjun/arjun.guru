@@ -8,6 +8,7 @@ From: India, Chennai
   └─> <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
 <strong id="b">[+]</strong> Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
   └─> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
+<strong id="b">[+]</strong> Technical Director of White Hat Hackers Club <a href="https://kluniversity.in"> KL University</a>.
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🧑‍💻]
 └─$ ./Technical_Skills</strong>
