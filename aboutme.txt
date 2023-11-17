@@ -10,24 +10,21 @@ From: India, Chennai
   └─> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
 <strong id="b">[+]</strong> Technical Director of White Hat Hackers Club <a href="https://kluniversity.in"> KL University</a>.
 
-<strong>┌──(<span id="a">arjun㉿predator</span>)-[🧑‍💻]
+<strong>┌──(<span id="a">arjun㉿predator</span>)-[🧠]
 └─$ ./Technical_Skills</strong>
 
-  <strong id="b">[+]</strong> Web Application Penetration Testing
-  <strong id="b">[+]</strong> Networking
-  <strong id="b">[+]</strong> Azure/AWS/Google Cloud & Security
-  <strong id="b">[+]</strong> MERN & Django Web Development
-  <strong id="b">[+]</strong> Graphic Designing (Canva x Midjourney)
-  <strong id="b">[+]</strong> Digital Content Creation (LinkedIn, Intagram & Twitter)
-  <strong id="b">[+]</strong> Server Administration (Linux with Apache & NGINX)
+  <strong id="b">[+]</strong> Web Application, Network , Cloud (Azure / AWS), API, Mobile App, and infrastructure - Penetration Testing,
+  <strong id="b">[+]</strong> Web Server Administration & Firewall Rules writing (Host, Network & WAF),
+  <strong id="b">[+]</strong> Proficient in tools like Burp Suite, Metasploit, Nessus, Nmap, Hashcat, Zap Proxy, Wireshark, Snort, OpenVas, etc,
+  <strong id="b">[+]</strong> Good understanding about cyber-security frameworks, Governance, Risk management, Compliance & Regulatory, Industrial best-practices concepts.
 
-<strong>┌──(<span id="a">arjun㉿predator</span>)-[🧠]
-└─$ ./Area_Of_Interest_Expertise</strong>
+<strong>┌──(<span id="a">arjun㉿predator</span>)-[🧑‍💻]
+└─$ ./Programming_Skills</strong>
 
-  <strong id="b">[+]</strong> Web Application Penetration Testing,
-  <strong id="b">[+]</strong> Cloud Penetration Testing,
-  <strong id="b">[+]</strong> Network Penetration Testing,
-  <strong id="b">[+]</strong> Python & Bash Scripting for automating boring stuff.
+  <strong id="b">[+]</strong> Python, Java, C, JS, Bash, PHP,
+  <strong id="b">[+]</strong> MongoDB, Express, React & NodeJS (MERN) Stack,
+  <strong id="b">[+]</strong> Java Full Stack With Spring,
+  <strong id="b">[+]</strong> Bash & Powershell scripting.
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🎓]
 └─$ ./Licenses_Certifications</strong>
