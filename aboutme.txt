@@ -41,10 +41,10 @@ From: India, Chennai
 └─$ cat contact.me</strong>
 
 You can reach me at <a href="mailto: 0xarjun@gmail.com">0xarjun@gmail.com</a>
-You can visit my other profiles, here: 
+
   <strong id="b">[+]</strong> <a href="https://www.linkedin.com/in/admiralarjun/">LinkedIn</a> 
-  <strong id="b">[+]</strong> <a href="https://instagram.com/admiralarjun/">InstaGram</a> 
   <strong id="b">[+]</strong> <a href="https://twitter.com/admiralarjun">Twitter</a>
+  <strong id="b">[+]</strong> <a href="https://t.me/admiralarjun">Telegram</a>
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🚧]
 └─$ arjun.guru
