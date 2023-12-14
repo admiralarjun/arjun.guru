@@ -7,24 +7,24 @@ From: India, Chennai
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[💼]
 └─$ ./Professional_Experience</strong>
 
-<strong id="b">[+]</strong> Product Security Manager, Together Corporation - USA | [Remote, IN]
-  - Developing and implementing robust security protocols and strategies for our product line.
-  - Conducting comprehensive risk assessments and addressing potential vulnerabilities promptly.
-  - Collaborating with cross-functional teams to integrate security measures into our product development lifecycle.
-  - Ensuring compliance with industry standards and regulations related to product security.
-  - Providing ongoing security training and support to team members.
+<strong id="b">[+]</strong> <span id='a'>Product Security Manager, Together Corporation - USA | [Remote, IN]</span> <span id="c">2023 - Present</span>
+  🟢 Developing and implementing robust security protocols and strategies for our product line.
+  🟢 Conducting comprehensive risk assessments and addressing potential vulnerabilities promptly.
+  🟢 Collaborating with cross-functional teams to integrate security measures into our product development lifecycle.
+  🟢 Ensuring compliance with industry standards and regulations related to product security.
+  🟢 Providing ongoing security training and support to team members.
 
-<strong id="b">[+]</strong> Student Peer Mentoring & Teaching Assistant, KL University | [Andhra Pradesh, IN]
-  - Mentoring undergraduates in the following courses: “Computer Networks & Security”, “Python Full Stack Development with Django”, “Software Engineering”, “Cryptanalysis, and Cyber Defense”, “Database Security” & “Digital Forensics”.
-  - Conducting study sessions, providing coursework guidance, and assisting in query resolution in lab sessions.
-  - Collaborating with faculty on creating - teaching materials, assessments & innovative ALMs.
-  - Preparing Skill & Lab workbooks for the respective subjects & aiding in research aspects.
+<strong id="b">[+]</strong> <span id='a'>Student Peer Mentoring & Teaching Assistant, KL University | [Andhra Pradesh, IN]</span> <span id="c">2022 - 2024</span>
+  🟢 Mentoring undergraduates in the following courses: “Computer Networks & Security”, “Python Full Stack Development with Django”, “Software Engineering”, “Cryptanalysis, and Cyber Defense”, “Database Security” & “Digital Forensics”.
+  🟢 Conducting study sessions, providing coursework guidance, and assisting in query resolution in lab sessions.
+  🟢 Collaborating with faculty on creating - teaching materials, assessments & innovative ALMs.
+  🟢 Preparing Skill & Lab workbooks for the respective subjects & aiding in research aspects.
 
-<strong id="b">[+]</strong> Founder & CEO, HACKLIDO | [Chennai, IN]
-  - Established and developing hacklido.com, a leading Infosec-focused blogging platform.
-  - Fostering relationships with cybersecurity sponsors and promotional channels for the growth of the platform.
-  - Implementing robust security measures for user data or content integrity, platform’s reliability & availability.
-  - Managing daily operations, including content curation, moderation, and technical aspects.
+<strong id="b">[+]</strong> <span id='a'>Founder & CEO, HACKLIDO | [Chennai, IN]</span> <span id="c">2023 - Present</span>
+  🟢 Established and developing hacklido.com, a leading Infosec-focused blogging platform.
+  🟢 Fostering relationships with cybersecurity sponsors and promotional channels for the growth of the platform.
+  🟢 Implementing robust security measures for user data or content integrity, platform’s reliability & availability.
+  🟢 Managing daily operations, including content curation, moderation, and technical aspects.
 
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🧠]
