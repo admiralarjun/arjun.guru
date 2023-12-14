@@ -3,12 +3,29 @@
 
 Name: Arjun S
 From: India, Chennai
-<strong id="b">[+]</strong> A Cyber Security Researcher 
-<strong id="b">[+]</strong>  Founder of an infosec blogging & publishing platform <a href="https://hacklido.com">Hacklido</a>.
-  └─> <a href="https://twitter.com/hacklido">Twitter</a> | <a href="https://t.me/hacklido">Telegram</a>.
-<strong id="b">[+]</strong> Founder of an technical blogging community <a href="https://codelido.com">Codelido</a>. (Under-DEV 🚧)
-  └─> <a href="https://twitter.com/codelido">Twitter</a> | <a href="https://t.me/codelido">Telegram</a>.
-<strong id="b">[+]</strong> Technical Director of White Hat Hackers Club <a href="https://kluniversity.in"> KL University</a>.
+
+<strong>┌──(<span id="a">arjun㉿predator</span>)-[💼]
+└─$ ./Professional_Experience</strong>
+
+<strong id="b">[+]</strong> Product Security Manager, Together Corporation - USA | [Remote, IN]
+  - Developing and implementing robust security protocols and strategies for our product line.
+  - Conducting comprehensive risk assessments and addressing potential vulnerabilities promptly.
+  - Collaborating with cross-functional teams to integrate security measures into our product development lifecycle.
+  - Ensuring compliance with industry standards and regulations related to product security.
+  - Providing ongoing security training and support to team members.
+
+<strong id="b">[+]</strong> Student Peer Mentoring & Teaching Assistant, KL University | [Andhra Pradesh, IN]
+  - Mentoring undergraduates in the following courses: “Computer Networks & Security”, “Python Full Stack Development with Django”, “Software Engineering”, “Cryptanalysis, and Cyber Defense”, “Database Security” & “Digital Forensics”.
+  - Conducting study sessions, providing coursework guidance, and assisting in query resolution in lab sessions.
+  - Collaborating with faculty on creating - teaching materials, assessments & innovative ALMs.
+  - Preparing Skill & Lab workbooks for the respective subjects & aiding in research aspects.
+
+<strong id="b">[+]</strong> Founder & CEO, HACKLIDO | [Chennai, IN]
+  - Established and developing hacklido.com, a leading Infosec-focused blogging platform.
+  - Fostering relationships with cybersecurity sponsors and promotional channels for the growth of the platform.
+  - Implementing robust security measures for user data or content integrity, platform’s reliability & availability.
+  - Managing daily operations, including content curation, moderation, and technical aspects.
+
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[🧠]
 └─$ ./Technical_Skills</strong>
@@ -36,6 +53,32 @@ From: India, Chennai
   <strong id="b">[+]</strong> NPTEL Certification from IITB - Demystifying Networking (Oct' 2022)
   <strong id="b">[+]</strong> AZ-900: Azure Fundamentals (Sep' 2022)
   <strong id="b">[+]</strong> SC-900: Security, Compliance, and Identity Fundamentals (Sep' 2022)
+
+<strong>┌──(<span id="a">arjun㉿predator</span>)-[👷‍♂️]
+└─$ ./Projects</strong>
+
+<strong id="b">[+]</strong> [hacklido.com]: Infosec focused blogging & publishing platform.
+<strong id="b">[+]</strong> [codelido.com]: Developer's community for discussions.
+<strong id="b">[+]</strong> [dorkit]: Automated Google dorking tool for pentesters | OSINT.
+<strong id="b">[+]</strong> [Phishing Detection Solution]: Kavach 2023 - Cybersecurity Hackathon.
+<strong id="b">[+]</strong> [IT Log Analyzer]: SIH 2023 - India’s Biggest hackathon.
+<strong id="b">[+]</strong> [Reconator]: Automated Web Application Recon Tool.
+
+<strong>┌──(<span id="a">arjun㉿predator</span>)-[📚]
+└─$ ./Relevant_Courses</strong>
+
+- Google IT Support Professional.
+- Google Cybersecurity Professional.
+- IBM Cybersecurity Analyst Professional.
+- Palo Alto Networks Cybersecurity Professional.
+
+<strong>┌──(<span id="a">arjun㉿predator</span>)-[📄]
+└─$ ./Research_Publications</strong>
+
+- Ransomware Containment for Windows based environment. (TBP)
+- Secure Coding practices to follow while using GPTs as Co-pilot. (TBP)
+- Cryptanalysis of AES-256 Encryption. (TBP)
+- Impact on security due to LLM’s Hallucination and deceptive content. (TBP)
 
 <strong>┌──(<span id="a">arjun㉿predator</span>)-[✉️]
 └─$ cat contact.me</strong>
