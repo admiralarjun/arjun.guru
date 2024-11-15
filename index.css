@@ -1,12 +1,12 @@
 body {
-    font-family: 'Droid Serif', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     color: #1A1C1A;
     background-color: #F5F2E8;
 }
 
 header {
-    font-family: 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ a {
     margin-bottom: 5px;
     font-weight: 800;
     font-size: 15px;
-    font-family: 'Droid Serif', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     align-items: center;
 }
 
@@ -80,13 +80,6 @@ a {
 
 .column+.column {
     border-left: 1px solid #2f2f2f;
-}
-
-.column .headline {
-    text-align: center;
-    line-height: normal;
-    font-family: 'Times New Roman', serif;
-    display: block;
 }
 
 .column .headline.hl1 {
@@ -124,9 +117,8 @@ a {
 }
 
 .column .headline.hl3 {
-    font-weight: 800;
-    font-style: italic;
-    font-size: 40px;
+    font-weight: 900;
+    font-size: 30px;
     padding: 10px 0 10px 0;
 }
 
@@ -220,18 +212,6 @@ a {
     padding: 10px 0 10px 0;
 }
 
-.column .citation {
-    font-family: 'Times New Roman', serif;
-    font-size: 36px;
-    line-height: 44px;
-    text-align: center;
-    font-weight: 400;
-    display: block;
-    margin: 40px 0 40px 0;
-    font-feature-settings: "liga", "dlig";
-
-}
-
 .column .citation:before {
     border-top: 1px solid #2f2f2f;
     content: '';
@@ -290,7 +270,7 @@ a {
 .loading-image {
     width: 100px;
     height: auto;
-    font-family: 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
@@ -309,7 +289,7 @@ p::first-letter {
     float: left;
     margin-right: 3px;
     line-height: 0.7;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 ul,
@@ -342,7 +322,6 @@ li {
 
 /* Caption */
 #caption {
-    text-align: center;
     color: #ccc;
     padding: 10px;
 }
