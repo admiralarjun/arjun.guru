@@ -1,0 +1,151 @@
+::-moz-selection {
+	 background: rgb(105, 99, 99);
+}
+ ::-webkit-selection {
+	 background: rgb(105, 99, 99);
+}
+ ::selection {
+	 background: rgb(105, 99, 99);
+}
+ .container {
+	 background-color: white;
+	 border-radius: 10px;
+	 opacity: 0.9;
+}
+ @media (min-width: 992px) {
+	 .container {
+		 max-width: 600px;
+		 margin-left: 900px;
+		 margin-top: 5rem;
+	}
+}
+ @media (min-width: 1200px) {
+	 .container {
+		 max-width: 800px;
+		 margin-left: 900px;
+		 margin-top: 5rem;
+	}
+}
+ body {
+	 color: #000000;
+	 font-weight: 600 !important;
+	 background-image: url(https://static.tumblr.com/606a8307b285d26314c93a04adf31776/q1d1sak/NBmn1vkb2/tumblr_static_dust_scratches.jpg);
+	 font-family: 'Playfair Display', serif;
+	 background-attachment: fixed;
+	 font-style: italic;
+}
+ body img {
+	 opacity: 0.5;
+	 max-width: 80%;
+	 margin: 0.5rem auto;
+	 display: block;
+}
+ @media (min-width: 992px) {
+	 body img {
+		 max-width: 600px;
+		 position: fixed;
+		 left: 0%;
+		 top: 0;
+		 transform: translateX(-35%);
+		 opacity: 0.2;
+		 z-index: -1;
+	}
+}
+ body p {
+	 z-index: 2;
+	 clear: both;
+}
+
+ body h1 {
+	 color: #000;
+	 display: inline-block;
+	 margin-top: 0.1rem;
+	 position: relative;
+	 font-style: italic;
+	 font-weight: 800;
+	 display: block;
+}
+
+ @media (min-width: 992px) {
+	 body h1:after {
+		 height: 25px;
+		 right: 0;
+		 left: auto;
+		 width: 90%;
+	}
+}
+ @media (min-width: 1200px) {
+	 body h1:after {
+		 width: 78%;
+		 right: 0;
+		 left: auto;
+	}
+}
+ @media (min-width: 992px) {
+	 body h1 {
+		 font-size: 52px;
+		 line-height: 54px;
+	}
+}
+ @media (min-width: 1200px) {
+	 body h1 {
+		 font-size: 62px;
+		 line-height: 64px;
+	}
+}
+ body h2 {
+	 font-feature-settings: "liga", "dlig";
+	 font-weight: 700;
+}
+ @media (min-width: 992px) {
+	 body h2 {
+		 font-size: 26px;
+		 line-height: 30px;
+	}
+}
+ @media (min-width: 1200px) {
+	 body h2 {
+		 font-size: 32px;
+		 line-height: 38px;
+	}
+}
+ a {
+	 margin-bottom: 1rem;
+	 margin-top: 0.2rem;
+	 color: inherit;
+	 display: inline-block;
+	 padding: 0px 0;
+	 clear: both;
+}
+ a:hover {
+	 background: white;
+	 color: black;
+	 text-decoration: none;
+}
+ @media (min-width: 992px) {
+	 a {
+		 text-align: right;
+	}
+}
+ 
+.date {
+	display: block;
+	font-size: 0.9rem;
+	color: #444;
+	padding: 5px;
+}
+
+
+.links a {
+	font-size: 1.5rem;
+	margin-right: 5px;
+	color: #222;
+}
+
+.experience li {
+	border-bottom: 1px solid #aaa;
+	padding: 5px;
+	list-style: none;
+	margin-left: -40px;
+	margin-top: 5px;
+}
