@@ -1,130 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arjun — AI Engineering</title>
-  <meta name="description" content="I build real AI systems. Not demos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --bg: #050505;
+      --card-bg: rgba(20, 20, 20, 0.6);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #ffffff;
+      --text-dim: #aaa;
+      /* Increased contrast from #888 */
+      --accent: #00ff41;
+      --accent-glow: rgba(0, 255, 65, 0.15);
+      --glass-shine: rgba(255, 255, 255, 0.03);
+    }
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <link rel="stylesheet" href="index.css">
+    body {
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(circle at 20% 0%, rgba(30, 30, 40, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 80% 100%, rgba(0, 40, 25, 0.2) 0%, transparent 50%);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      overflow: hidden;
+      perspective: 1200px;
+    }
+
+    /* Ambient Noise Texture */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .card {
+      position: relative;
+      background: var(--card-bg);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid var(--card-border);
+
+      /* Responsive Sizing */
+      width: 100%;
+      max-width: 440px;
+      /* Default for mobile */
+      padding: 0;
+      /* Let content handle padding so image can bleed to edge */
+
+      border-radius: 20px;
+      box-shadow:
+        0 40px 80px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(255, 255, 255, 0.02) inset;
+      transform-style: preserve-3d;
+      transition: transform 0.1s ease-out;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Desktop Layout: Horizontal */
+    @media (min-width: 768px) {
+      .card {
+        max-width: 800px;
+        flex-direction: row;
+        /* Side by side on desktop */
+      }
+    }
+
+    .card-content {
+      /* Remove grid, use flex on .card directly for easier layout control */
+      display: contents;
+    }
+
+    /* Spotlight Glow Effect container */
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 20px;
+      padding: 1px;
+      background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y),
+          rgba(255, 255, 255, 0.12),
+          transparent 40%);
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      opacity: 0.8;
+      z-index: 2;
+    }
+
+    /* Inner Glow Spotlight */
+    .card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y),
+          rgba(255, 255, 255, 0.03),
+          transparent 40%);
+      border-radius: 20px;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* --- Profile Side (Left on Desktop, Top on Mobile) --- */
+    .profile-side {
+      /* Remove padding to let image touch edges */
+      padding: 0;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 380px;
+      /* Fixed height for profile section on mobile to look good */
+    }
+
+    @media (min-width: 768px) {
+      .profile-side {
+        width: 300px;
+        /* Fixed width sidebar on desktop */
+        height: auto;
+        /* Full height match */
+        border-bottom: none;
+        border-right: 1px solid var(--card-border);
+        flex-shrink: 0;
+      }
+    }
+
+    .avatar-container {
+      width: 100%;
+      height: 60%;
+      /* Image takes top 60% */
+      position: relative;
+      overflow: hidden;
+      /* Border radius: Top Left & Top Right for Mobile */
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    @media (min-width: 768px) {
+      .avatar-container {
+        /* Desktop: Top-Left only */
+        border-top-right-radius: 0;
+      }
+    }
+
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Container for the badge to center it in the remaining space */
+    .badge-container {
+      flex: 1;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.35rem 0.8rem;
+      background: rgba(0, 255, 65, 0.1);
+      border: 1px solid rgba(0, 255, 65, 0.25);
+      border-radius: 6px;
+      /* Remove margin since we are using flex centering now */
+      margin: 0;
+    }
+
+    @media (min-width: 768px) {
+      .badge {
+        align-self: flex-start;
+      }
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.03em;
+      background: linear-gradient(to bottom right, #fff, #bbb);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.1;
+    }
+
+    /* --- Info Side --- */
+    .info-side {
+      padding: 2.5rem;
+      /* Ensure generous padding */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 3;
+      flex: 1;
+    }
+
+    .philosophy {
+      font-size: 1.1rem;
+      color: var(--text-dim);
+      margin-bottom: 2.5rem;
+      line-height: 1.6;
+      font-weight: 400;
+      max-width: 90%;
+    }
+
+    /* Icon Grid */
+    .action-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .action-item {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      font-size: 0.95rem;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      transition: all 0.2s ease;
+      color: var(--text-dim);
+      text-decoration: none;
+    }
+
+    .action-item:last-child {
+      border-bottom: none;
+    }
+
+    .action-item:hover {
+      color: #fff;
+      transform: translateX(4px);
+    }
+
+    .action-item svg {
+      width: 18px;
+      height: 18px;
+      stroke: var(--text-dim);
+      transition: stroke 0.2s;
+    }
+
+    .action-item:hover svg {
+      stroke: var(--accent);
+    }
+
+    /* Icons */
+    .icon-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Animation Utilities */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-in {
+      animation: fadeUp 0.6s ease-out forwards;
+      opacity: 0;
+    }
+
+    .d-1 {
+      animation-delay: 0.1s;
+    }
+
+    .d-2 {
+      animation-delay: 0.2s;
+    }
+
+    .d-3 {
+      animation-delay: 0.3s;
+    }
+
+    .d-4 {
+      animation-delay: 0.4s;
+    }
+  </style>
 </head>
+
 <body>
 
-  <!-- NAV -->
-  <header class="nav">
-    <div class="nav-inner">
-      <span class="brand">ARJUN</span>
-      <nav class="nav-links">
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <main class="card" id="card">
+    <!-- Profile Side -->
+    <div class="profile-side">
+      <div class="avatar-container animate-in d-1">
+        <img src="profile.png" alt="Arjun S" class="avatar-img">
+      </div>
+
+      <div class="badge-container animate-in d-1">
+        <div class="badge">
+          <span class="mono">AI Engineering</span>
+        </div>
+      </div>
     </div>
-  </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-frame">
+    <!-- Info Side -->
+    <div class="info-side">
+      <h1 class="animate-in d-2">Arjun S</h1>
+      <p class="philosophy animate-in d-3">Building systems that reason, not just prompts that talk.</p>
 
-      <div class="hero-text">
-        <p class="mono">AI ENGINEERING</p>
+      <div class="action-stack animate-in d-4">
 
-        <h1>
-          Intelligent<br/>
-          <span>systems</span><br/>
-          over demos
-        </h1>
-
-        <p class="desc">
-          I engineer agentic workflows, LLM applications,
-          and production AI pipelines built to survive real usage.
-        </p>
-
-        <div class="actions">
-          <a href="#work" class="btn primary">Selected work</a>
-          <a href="#contact" class="btn ghost">Contact</a>
+        <div class="action-item">
+          <span class="icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </span>
+          <span>Bangalore, IN</span>
         </div>
-      </div>
 
-      <!-- FLOATING TERMINAL -->
-      <div class="terminal-float">
-        <p><span class="green">$</span> whoami</p>
-        <p class="out">AI engineer</p>
-        <p><span class="green">$</span> focus</p>
-        <p class="out">systems · scale · reliability</p>
-        <p><span class="green">$</span> status</p>
-        <p class="out">shipping</p>
-      </div>
+        <a href="mailto:email@arjun.guru" class="action-item">
+          <span class="icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </span>
+          <span>email@arjun.guru</span>
+        </a>
 
+        <a href="https://arjun.guru/resume" target="_blank" class="action-item">
+          <span class="icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </span>
+          <span>Download Resume</span>
+        </a>
+
+      </div>
     </div>
-  </section>
 
-  <!-- META STRIP -->
-  <section class="meta-strip">
-    <span>AGENTIC SYSTEMS</span>
-    <span>LLM PIPELINES</span>
-    <span>AI TOOLING</span>
-    <span>INTERNAL PLATFORMS</span>
-    <span>PRODUCTION AI</span>
-  </section>
+  </main>
 
-  <!-- WORK -->
-  <section class="work" id="work">
-    <div class="work-grid">
+  <script>
+    const card = document.getElementById('card');
 
-      <div class="work-rail">
-        <h2>What I build</h2>
-        <div class="rail-line"></div>
-      </div>
+    document.addEventListener('mousemove', (e) => {
+      const { clientX, clientY } = e;
+      const rect = card.getBoundingClientRect();
 
-      <div class="work-items">
-        <div class="work-item">
-          <span>01</span>
-          <p>
-            Agent-based AI systems coordinating tools,
-            data, and humans without collapsing.
-          </p>
-        </div>
+      const x = clientX - rect.left;
+      const y = clientY - rect.top;
 
-        <div class="work-item">
-          <span>02</span>
-          <p>
-            LLM-powered internal platforms for analysis,
-            automation, and operational workflows.
-          </p>
-        </div>
+      card.style.setProperty('--mouse-x', `${x}px`);
+      card.style.setProperty('--mouse-y', `${y}px`);
 
-        <div class="work-item">
-          <span>03</span>
-          <p>
-            End-to-end AI pipelines — ingestion,
-            reasoning, orchestration, monitoring.
-          </p>
-        </div>
-      </div>
+      // 3D Tilt Effect
+      // Only enable tilt on non-touch devices (assumed if mousemove fires significantly)
+      const centerX = window.innerWidth / 2;
+      const centerY = window.innerHeight / 2;
 
-    </div>
-  </section>
+      const maxRotate = 4; // Reduced rotation for the larger card
 
-  <!-- STATEMENT -->
-  <section class="statement">
-    <p>
-      AI engineering is not prompts.<br/>
-      It is <span>systems thinking.</span>
-    </p>
-  </section>
+      const rotateY = ((clientX - centerX) / centerX) * maxRotate;
+      const rotateX = ((centerY - clientY) / centerY) * maxRotate;
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <h2>Build something real</h2>
+      card.style.transform = `
+        perspective(1200px) 
+        rotateX(${rotateX}deg) 
+        rotateY(${rotateY}deg)
+      `;
+    });
 
-    <a href="mailto:0xarjun@gmail.com" class="btn primary large">
-      0xarjun@gmail.com
-    </a>
-  </section>
-
+    document.addEventListener('mouseleave', () => {
+      card.style.transform = `perspective(1200px) rotateX(0deg) rotateY(0deg)`;
+    });
+  </script>
 </body>
+
 </html>
